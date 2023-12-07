@@ -1,5 +1,5 @@
 header{
-    background-color: blue;
+    background-color: rgb(105, 86, 86);
     padding: 12px;
     color: white;
     margin: -8px;
@@ -9,13 +9,16 @@ header{
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-indent: 18px;
+    font-size: 24px;
 }
 
 .text{
     display: flex;
     justify-content: center;
-    text-indent: 18px;
-    font-size: 24px;
+    align-items: center;
 }

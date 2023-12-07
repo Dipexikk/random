@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/7b00b935-ee59-4a04-978c-47a80512cb77-profile_image-70x70.png" class="obrazek">
+        </div>
+        <div class="text">
+            <a href="/mainpage.html" class="button2">Homepage</a>
+            <a href="/login/login.html" class="button2">Přihlášení</a>
+            <a href="/login/register.html" class="button3">Registrace</a>
+        </div>
+    </header>
+    <main>
+        <div class="okenko">
+            <h1>Přihlášení</h1>
+            <form action="action_page.php" method="post">
+                <div class="container">
+                    <label for="uname"><b>Přezdívka/Email</b></label>
+                    <div class="usernamelol">
+                    <input type="text" placeholder="Napište přezdívku/email" name="uname" required>
+                    </div>
+                    <label for="psw"><b>Heslo</b></label>
+                    <div class="pswrdlol">
+                    <input type="password" placeholder="Napiště heslo" name="psw" required>
+                    </div>
+                    <label class="rmbr">
+                        Pamatovat si mě
+                        <input type="checkbox" name="remember">
+                    </label><p></p>
+                    <button type="submit"><b>Přihlásit se</b></button><p></p>
+                </div>
+
+                    <div class="special form">
+                        <span class="psw">Nemáte ještě účet? <a href="/login/register.html">Zaregistrujte se</a></span> <p></p>
+                        <span class="psw">Zapomněl/a jste <a href="/login/heslo.html">heslo?</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="username">
+            
+        </div>
+        <div class="password">
+
+        </div>
+        <div class="login">
+
+        </div>
+    </main>
+</body>
+</html>
